@@ -1,0 +1,47 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+It was much easier.  Thanks
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+I can easily remove code and change code and not worry about making backups anymore.  As long as I commit lots.
+
+What do you think are the pros and cons of manually choosing when to create a commit, 
+like you do in Git, 
+vs 
+having versions automatically saved, like Google docs does?
+Allows the developer to make specific versions which relate to a block of functional code.
+Too many small = hard to find where the issue is.
+Too many big   = hard to find where the issue is.
+Moderate descrete size chunks related to one method or feature is the best.
+Avoid committing two bug fixes in the same commit
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+because a feature or bug might affect several files at once.
+google docs has lots of small changes before the content is more of a stream rather than a collection which makes up a feature or product.
+
+How can you use the commands git log and git diff to view the history of files?
+git log to find the commits and git diff to see the diff of the two versions
+use git diff ID ID
+
+Git Errors and Warnings Solution
+
+Should not be doing an octopus 
+Octopus is a strategy Git uses to combine many different versions of code together. This message can appear if you try to use this strategy in an inappropriate situation.
+
+You are in 'detached HEAD' state 
+HEAD is what Git calls the commit you are currently on. You can “detach” the HEAD by switching to a previous commit, which we’ll see in the next video. Despite what it sounds like, it’s actually not a bad thing to detach the HEAD. Git just warns you so that you’ll realize you’re doing it.
+
+Panic! (the 'impossible' happened) 
+This is a real error message, but it’s not output by Git. Instead it’s output by GHC, the compiler for a programming language called Haskell. It’s reserved for particularly surprising errors!
+
+Takeaway
+
+We hope these errors and warnings amused you as much as they amused us! Now that you know what kind of errors Git can throw, you’re ready to start checking out previous versions of files with Caroline.
+
+
+No Bug 25ede836903881848fea811df5b687b59d962da3
+git diff 25ede836903881848fea811df5b687b59d962da3 4035769377cce96a88d5c1167079e12f30492391 - this is wrong
+this is where the error occured.. 
+
+
+How might using version control make you more confident to make changes that could break something?
+
