@@ -3,3 +3,7 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Working dir is just the raw dir/folder with your files.  Once you add the files are moved into the staging directory
+
+How can you use the staging area to make sure you have one commit per logical change?
+Always check the staging area when coding, to make sure you have not moved on and left anything else around, which should be committed.
+
