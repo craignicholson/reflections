@@ -7,3 +7,9 @@ Working dir is just the raw dir/folder with your files.  Once you add the files 
 How can you use the staging area to make sure you have one commit per logical change?
 Always check the staging area when coding, to make sure you have not moved on and left anything else around, which should be committed.
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Producation branch.   Developer Branch.    This way dev checks in code to dev branch, and CI server builds and updates the web
+server.  When these changes are tested we then move on and merge to the Production Branch.
+
+The less branching we have the better because too many branches become a hazard.
+
