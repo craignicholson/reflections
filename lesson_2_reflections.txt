@@ -13,3 +13,19 @@ server.  When these changes are tested we then move on and merge to the Producti
 
 The less branching we have the better because too many branches become a hazard.
 
+How do the diagrams help you visualize the branch structure?
+Helps on see the paths of developement and the unreachable heads
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+All code in one file, one repository.  Because both branches grew and then merged.
+
+Merge branch 'master' into easy-mode
+
+Conflicts:
+	game.js
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Auto is good when there are no conflicts.  When you have conflicts it's best to review them
+in detail.  Conflicts typically mean the code will break if the merge was done automatic
+without a review.
+
